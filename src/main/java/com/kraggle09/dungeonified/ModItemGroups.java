@@ -16,14 +16,15 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.dungeonified.dungeonified_group"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.BURNT_PUMPKIN);
+                        // Base Runestone
+                        entries.add(ModBlocks.POLISHED_RUNESTONE);
+                        entries.add(ModBlocks.CHISELED_RUNESTONE);
+                        entries.add(ModBlocks.WATCHER_RUNESTONE);
                         entries.add(ModBlocks.RUNESTONE_BRICKS);
+                        entries.add(ModBlocks.SQUARED_RUNESTONE_BRICKS);
                         entries.add(ModBlocks.CHISELED_RUNESTONE_BRICKS);
                         entries.add(ModBlocks.MORTISED_RUNESTONE_BRICKS);
                         entries.add(ModBlocks.RUNESTONE_PILLAR);
-                        entries.add(ModBlocks.SQUARED_RUNESTONE_BRICKS);
-                        entries.add(ModBlocks.WATCHER_RUNESTONE);
-                        entries.add(ModBlocks.POLISHED_RUNESTONE);
-                        entries.add(ModBlocks.CHISELED_RUNESTONE);
                     })
                     .build());
 
