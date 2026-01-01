@@ -2,14 +2,20 @@ package com.kraggle09.dungeonified.blocks;
 
 import com.kraggle09.dungeonified.Dungeonified;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    private static final Block BURNT_PUMPKIN = registerBlock("burnt_pumpkin",
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOD)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Dungeonified.MOD_ID, name), block);
@@ -22,5 +28,9 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         Dungeonified.LOGGER.info("[DUNGEONIFIED] Registering Blocks...");
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(ModBlocks.BURNT_PUMPKIN);
+        });
     }
 }
