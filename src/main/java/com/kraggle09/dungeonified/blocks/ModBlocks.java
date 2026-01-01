@@ -16,6 +16,8 @@ public class ModBlocks {
 
     public static final Block RUNESTONE_BRICKS = registerBlock("runestone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+    public static final Block CHISELED_RUNESTONE_BRICKS = registerBlock("chiseled_runestone_bricks",
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
