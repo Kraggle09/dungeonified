@@ -16,6 +16,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.dungeonified.dungeonified_group"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.BURNT_PUMPKIN);
+                        entries.add(ModBlocks.PATTERNED_STONE_BRICKS);
                     })
                     .build());
 

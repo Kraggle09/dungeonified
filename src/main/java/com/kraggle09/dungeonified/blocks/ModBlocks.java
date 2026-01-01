@@ -16,6 +16,9 @@ public class ModBlocks {
     public static final Block BURNT_PUMPKIN = registerBlock("burnt_pumpkin",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOD)));
 
+    public static final Block PATTERNED_STONE_BRICKS = registerBlock("patterned_stone_bricks",
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Dungeonified.MOD_ID, name), block);

@@ -8,7 +8,7 @@ and better support of existing ones. This mod is heavily WIP right now, as I'm s
 
 ## Current features of the mod
 - Directly matching textures of vanilla mobs (zombie, skeleton, etc)
-- One block
+- Some blocks
 
 ## FAQ
 **What will happen to the resource pack?**  
