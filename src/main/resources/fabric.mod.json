@@ -20,9 +20,6 @@
 		],
 		"fabric-datagen": [
 			"com.kraggle09.dungeonified.DungeonifiedDataGenerator"
-		],
-		"client": [
-			"com.kraggle09.dungeonified.DungeonifiedClient"
 		]
 	},
 	"mixins": [
@@ -30,7 +27,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.18.4",
-		"minecraft": "~1.21.11",
+		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
 	}

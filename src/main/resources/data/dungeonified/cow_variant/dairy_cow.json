@@ -1,8 +1,0 @@
-{
-  "asset_id": "dungeonified:entity/cow/dairy_cow",
-  "spawn_conditions": [
-    {
-      "priority": 0
-    }
-  ]
-}
