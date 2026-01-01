@@ -24,6 +24,8 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
     public static final Block SQUARED_RUNESTONE_BRICKS = registerBlock("squared_runestone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+    public static final Block WATCHER_RUNESTONE = registerBlock("watcher_runestone",
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
