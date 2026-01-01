@@ -1,6 +1,14 @@
 {
-    "parent": "block/cube_all",
+    "parent": "block/cube_column",
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [ 0, 135, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    },
     "textures": {
-        "all": "dungeonified:block/chiseled_runestone_bricks"
+        "end": "dungeonified:block/polished_runestone",
+        "side": "dungeonified:block/chiseled_runestone_bricks"
     }
 }

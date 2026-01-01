@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BURNT_PUMPKIN);
                         entries.add(ModBlocks.RUNESTONE_BRICKS);
                         entries.add(ModBlocks.CHISELED_RUNESTONE_BRICKS);
+                        entries.add(ModBlocks.MORTISED_RUNESTONE_BRICKS);
                     })
                     .build());
 

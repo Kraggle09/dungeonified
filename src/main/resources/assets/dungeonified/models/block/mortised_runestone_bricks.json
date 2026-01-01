@@ -9,6 +9,6 @@
     },
     "textures": {
         "end": "dungeonified:block/polished_runestone",
-        "side": "dungeonified:block/runestone_bricks_side"
+        "side": "dungeonified:block/mortised_runestone_bricks"
     }
 }
