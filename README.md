@@ -8,9 +8,7 @@ and better support of existing ones. This mod is heavily WIP right now, as I'm s
 
 ## Current features of the mod
 - Directly matching textures of vanilla mobs (zombie, skeleton, etc)
-- One cow variant (dairy cow)
-
-For a list of planned features, see the [to-do list](https://github.com/Kraggle09/dungeonified/issues/1).
+- One block
 
 ## FAQ
 **What will happen to the resource pack?**  
