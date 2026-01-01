@@ -12,11 +12,11 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup DUNGEONIFIED_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Dungeonified.MOD_ID, "dungeonified_group"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.BURNT_PUMPKIN))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.RUNESTONE_BRICKS))
                     .displayName(Text.translatable("itemgroup.dungeonified.dungeonified_group"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.BURNT_PUMPKIN);
-                        entries.add(ModBlocks.PATTERNED_STONE_BRICKS);
+                        entries.add(ModBlocks.RUNESTONE_BRICKS);
                     })
                     .build());
 

@@ -1,12 +1,10 @@
 package com.kraggle09.dungeonified.blocks;
 
 import com.kraggle09.dungeonified.Dungeonified;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -16,7 +14,7 @@ public class ModBlocks {
     public static final Block BURNT_PUMPKIN = registerBlock("burnt_pumpkin",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOD)));
 
-    public static final Block PATTERNED_STONE_BRICKS = registerBlock("patterned_stone_bricks",
+    public static final Block RUNESTONE_BRICKS = registerBlock("runestone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {

@@ -8,7 +8,7 @@
         }
     },
     "textures": {
-        "end": "dungeonified:block/patterned_stone_bricks_top",
-        "side": "dungeonified:block/patterned_stone_bricks_side"
+        "end": "dungeonified:block/runestone_bricks_top",
+        "side": "dungeonified:block/runestone_bricks_side"
     }
 }
