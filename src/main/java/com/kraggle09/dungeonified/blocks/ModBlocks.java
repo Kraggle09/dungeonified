@@ -13,7 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    private static final Block BURNT_PUMPKIN = registerBlock("burnt_pumpkin",
+    public static final Block BURNT_PUMPKIN = registerBlock("burnt_pumpkin",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOD)));
 
     private static Block registerBlock(String name, Block block) {
@@ -28,9 +28,5 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         Dungeonified.LOGGER.info("[DUNGEONIFIED] Registering Blocks...");
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(ModBlocks.BURNT_PUMPKIN);
-        });
     }
 }

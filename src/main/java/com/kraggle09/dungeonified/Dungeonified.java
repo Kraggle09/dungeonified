@@ -15,6 +15,8 @@ public class Dungeonified implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("[DUNGEONIFIED] Loading...");
 
+		ModItemGroups.registerItemsGroups();
+
 		ModBlocks.registerModBlocks();
 	}
 }
