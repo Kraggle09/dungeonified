@@ -24,11 +24,11 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
     public static final Block SQUARED_RUNESTONE_BRICKS = registerBlock("squared_runestone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
-    public static final Block WATCHER_RUNESTONE = registerBlock("watcher_runestone",
+    public static final Block CHISELED_RUNESTONE = registerBlock("chiseled_runestone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
     public static final Block POLISHED_RUNESTONE = registerBlock("polished_runestone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
-    public static final Block CHISELED_RUNESTONE = registerBlock("chiseled_runestone",
+    public static final Block PATTERNED_RUNESTONE = registerBlock("patterned_runestone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {

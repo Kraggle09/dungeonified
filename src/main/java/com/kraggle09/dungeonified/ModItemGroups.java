@@ -18,8 +18,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BURNT_PUMPKIN);
                         // Base Runestone
                         entries.add(ModBlocks.POLISHED_RUNESTONE);
+                        entries.add(ModBlocks.PATTERNED_RUNESTONE);
                         entries.add(ModBlocks.CHISELED_RUNESTONE);
-                        entries.add(ModBlocks.WATCHER_RUNESTONE);
                         entries.add(ModBlocks.RUNESTONE_BRICKS);
                         entries.add(ModBlocks.SQUARED_RUNESTONE_BRICKS);
                         entries.add(ModBlocks.CHISELED_RUNESTONE_BRICKS);
