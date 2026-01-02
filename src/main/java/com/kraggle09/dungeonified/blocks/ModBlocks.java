@@ -14,6 +14,7 @@ public class ModBlocks {
     public static final Block BURNT_PUMPKIN = registerBlock("burnt_pumpkin",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOD)));
 
+    // Base Runestone
     public static final Block RUNESTONE_BRICKS = registerBlock("runestone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
     public static final Block CHISELED_RUNESTONE_BRICKS = registerBlock("chiseled_runestone_bricks",
@@ -29,6 +30,14 @@ public class ModBlocks {
     public static final Block POLISHED_RUNESTONE = registerBlock("polished_runestone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
     public static final Block PATTERNED_RUNESTONE = registerBlock("patterned_runestone",
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+
+    // Base Siltstone
+    public static final Block POLISHED_SILTSTONE = registerBlock("polished_siltstone",
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+    public static final Block SILTSTONE_BRICKS = registerBlock("siltstone_bricks",
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+    public static final Block CHISELED_SILTSTONE = registerBlock("chiseled_siltstone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {
