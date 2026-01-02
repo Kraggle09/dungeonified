@@ -32,12 +32,23 @@ public class ModBlocks {
     public static final Block PATTERNED_RUNESTONE = registerBlock("patterned_runestone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
 
-    // Base Dripstone
     public static final Block POLISHED_DRIPSTONE = registerBlock("polished_dripstone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
     public static final Block DRIPSTONE_BRICKS = registerBlock("dripstone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
     public static final Block CHISELED_DRIPSTONE = registerBlock("chiseled_dripstone",
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+
+    // base bricks bricks_chiseled chiseled pillar
+    public static final Block STONE_QUARTZ = registerBlock("stone_quartz",
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+    public static final Block STONE_QUARTZ_BRICKS = registerBlock("stone_quartz_bricks",
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+    public static final Block CHISELED_STONE_QUARTZ_BRICKS = registerBlock("chiseled_stone_quartz_bricks",
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+    public static final Block CHISELED_STONE_QUARTZ = registerBlock("chiseled_stone_quartz",
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+    public static final Block STONE_QUARTZ_PILLAR = registerBlock("stone_quartz_pillar",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {

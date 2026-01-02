@@ -28,6 +28,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_DRIPSTONE);
                         entries.add(ModBlocks.DRIPSTONE_BRICKS);
                         entries.add(ModBlocks.CHISELED_DRIPSTONE);
+                        entries.add(ModBlocks.STONE_QUARTZ);
+                        entries.add(ModBlocks.CHISELED_STONE_QUARTZ);
+                        entries.add(ModBlocks.STONE_QUARTZ_BRICKS);
+                        entries.add(ModBlocks.CHISELED_STONE_QUARTZ_BRICKS);
+                        entries.add(ModBlocks.STONE_QUARTZ_PILLAR);
                     })
                     .build());
 

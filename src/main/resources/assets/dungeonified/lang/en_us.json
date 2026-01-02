@@ -11,5 +11,10 @@
   "block.dungeonified.polished_dripstone": "Polished Dripstone",
   "block.dungeonified.dripstone_bricks": "Dripstone Bricks",
   "block.dungeonified.chiseled_dripstone": "Chiseled Dripstone",
+  "block.dungeonified.stone_quartz": "Stone Quartz",
+  "block.dungeonified.stone_quartz_bricks": "Stone Quartz Bricks",
+  "block.dungeonified.chiseled_stone_quartz_bricks": "Chiseled Stone Quartz Bricks",
+  "block.dungeonified.chiseled_stone_quartz": "Chiseled Stone Quartz",
+  "block.dungeonified.stone_quartz_pillar": "Stone Quartz Pillar",
   "itemgroup.dungeonified.dungeonified_group": "Dungeonified"
 }
