@@ -16,5 +16,22 @@
   "block.dungeonified.chiseled_stone_quartz_bricks": "Chiseled Stone Quartz Bricks",
   "block.dungeonified.chiseled_stone_quartz": "Chiseled Stone Quartz",
   "block.dungeonified.stone_quartz_pillar": "Stone Quartz Pillar",
+
+
+  "painting.dungeonified.creeper.title": "Creeper",
+  "painting.dungeonified.creeper.author": "Unknown",
+  "painting.dungeonified.portal.title": "Portal",
+  "painting.dungeonified.portal.author": "Unknown",
+  "painting.dungeonified.desert.title": "Desert",
+  "painting.dungeonified.desert.author": "Unknown",
+  "painting.dungeonified.creeper_statue.title": "Creeper Statue",
+  "painting.dungeonified.creeper_statue.author": "Unknown",
+  "painting.dungeonified.ocean.title": "Ocean",
+  "painting.dungeonified.ocean.author": "Unknown",
+  "painting.dungeonified.redstone_golem.title": "Redstone Golem",
+  "painting.dungeonified.redstone_golem.author": "Unknown",
+  "painting.dungeonified.skull.title": "Skull",
+  "painting.dungeonified.skull.author": "Unknown",
+
   "itemgroup.dungeonified.dungeonified_group": "Dungeonified"
 }
