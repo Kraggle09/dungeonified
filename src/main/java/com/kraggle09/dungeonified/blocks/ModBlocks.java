@@ -3,6 +3,8 @@ package com.kraggle09.dungeonified.blocks;
 import com.kraggle09.dungeonified.Dungeonified;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -12,11 +14,13 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block BURNT_PUMPKIN = registerBlock("burnt_pumpkin",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOD)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOD).strength(1f)));
 
     // Base Runestone
     public static final Block RUNESTONE_BRICKS = registerBlock("runestone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
+    public static final Block RUNESTONE_BRICK_SLAB = registerBlock("runestone_brick_slab", createSlabBlock(RUNESTONE_BRICKS));
+    public static final Block RUNESTONE_BRICK_STAIRS = registerBlock("runestone_brick_stairs", createStairsBlock(RUNESTONE_BRICKS));
     public static final Block CHISELED_RUNESTONE_BRICKS = registerBlock("chiseled_runestone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block MORTISED_RUNESTONE_BRICKS = registerBlock("mortised_runestone_bricks",
@@ -49,6 +53,14 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
     public static final Block STONE_QUARTZ_PILLAR = registerBlock("stone_quartz_pillar",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
+
+    private static Block createStairsBlock(Block base) {
+        return new StairsBlock(base.getDefaultState(), AbstractBlock.Settings.copy(base));
+    }
+
+    private static Block createSlabBlock(Block base) {
+        return new SlabBlock(AbstractBlock.Settings.copy(base));
+    }
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

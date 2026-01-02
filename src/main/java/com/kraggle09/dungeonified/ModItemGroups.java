@@ -21,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PATTERNED_RUNESTONE);
                         entries.add(ModBlocks.CHISELED_RUNESTONE);
                         entries.add(ModBlocks.RUNESTONE_BRICKS);
+                        entries.add(ModBlocks.RUNESTONE_BRICK_SLAB);
+                        entries.add(ModBlocks.RUNESTONE_BRICK_STAIRS);
                         entries.add(ModBlocks.SQUARED_RUNESTONE_BRICKS);
                         entries.add(ModBlocks.CHISELED_RUNESTONE_BRICKS);
                         entries.add(ModBlocks.MORTISED_RUNESTONE_BRICKS);
