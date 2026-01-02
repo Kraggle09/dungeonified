@@ -1,12 +1,5 @@
 {
     "parent": "dungeonified:block/cube_column_2_sides",
-    "display": {
-        "firstperson_righthand": {
-            "rotation": [ 0, 135, 0 ],
-            "translation": [ 0, 0, 0 ],
-            "scale": [ 0.40, 0.40, 0.40 ]
-        }
-    },
     "textures": {
         "end": "dungeonified:block/burnt_pumpkin_top",
         "side1": "dungeonified:block/burnt_pumpkin_side1",
