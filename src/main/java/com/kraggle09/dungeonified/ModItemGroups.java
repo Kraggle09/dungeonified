@@ -37,6 +37,6 @@ public class ModItemGroups {
                     .build());
 
     public static void registerItemsGroups() {
-        Dungeonified.LOGGER.info("[DUNGEONIFIED] Registering Item Groups");
+        Dungeonified.LOGGER.info("Registering Item Groups");
     }
 }

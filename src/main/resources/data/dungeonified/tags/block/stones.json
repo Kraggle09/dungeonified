@@ -1,0 +1,20 @@
+{
+  "values": [
+    "dungeonified:runestone_bricks",
+    "dungeonified:chiseled_runestone_bricks",
+    "dungeonified:mortised_runestone_bricks",
+    "dungeonified:runestone_pillar",
+    "dungeonified:squared_runestone_bricks",
+    "dungeonified:chiseled_runestone",
+    "dungeonified:polished_runestone",
+    "dungeonified:patterned_runestone",
+    "dungeonified:polished_dripstone",
+    "dungeonified:dripstone_bricks",
+    "dungeonified:chiseled_dripstone",
+    "dungeonified:stone_quartz",
+    "dungeonified:stone_quartz_bricks",
+    "dungeonified:chiseled_stone_quartz_bricks",
+    "dungeonified:chiseled_stone_quartz",
+    "dungeonified:stone_quartz_pillar"
+  ]
+}

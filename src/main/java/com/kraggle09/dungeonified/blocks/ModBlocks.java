@@ -16,40 +16,39 @@ public class ModBlocks {
 
     // Base Runestone
     public static final Block RUNESTONE_BRICKS = registerBlock("runestone_bricks",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block CHISELED_RUNESTONE_BRICKS = registerBlock("chiseled_runestone_bricks",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block MORTISED_RUNESTONE_BRICKS = registerBlock("mortised_runestone_bricks",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block RUNESTONE_PILLAR = registerBlock("runestone_pillar",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block SQUARED_RUNESTONE_BRICKS = registerBlock("squared_runestone_bricks",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block CHISELED_RUNESTONE = registerBlock("chiseled_runestone",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block POLISHED_RUNESTONE = registerBlock("polished_runestone",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block PATTERNED_RUNESTONE = registerBlock("patterned_runestone",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
 
     public static final Block POLISHED_DRIPSTONE = registerBlock("polished_dripstone",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.5f).requiresTool()));
     public static final Block DRIPSTONE_BRICKS = registerBlock("dripstone_bricks",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.5f).requiresTool()));
     public static final Block CHISELED_DRIPSTONE = registerBlock("chiseled_dripstone",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.5f).requiresTool()));
 
-    // base bricks bricks_chiseled chiseled pillar
     public static final Block STONE_QUARTZ = registerBlock("stone_quartz",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
     public static final Block STONE_QUARTZ_BRICKS = registerBlock("stone_quartz_bricks",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
     public static final Block CHISELED_STONE_QUARTZ_BRICKS = registerBlock("chiseled_stone_quartz_bricks",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
     public static final Block CHISELED_STONE_QUARTZ = registerBlock("chiseled_stone_quartz",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
     public static final Block STONE_QUARTZ_PILLAR = registerBlock("stone_quartz_pillar",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -62,6 +61,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        Dungeonified.LOGGER.info("[DUNGEONIFIED] Registering Blocks...");
+        Dungeonified.LOGGER.info("[DUNGEONIFIED] Registering Blocks");
     }
 }

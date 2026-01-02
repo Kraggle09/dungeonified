@@ -13,10 +13,12 @@ public class Dungeonified implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("[DUNGEONIFIED] Loading...");
+		LOGGER.info("Loading...");
 
 		ModItemGroups.registerItemsGroups();
 
 		ModBlocks.registerModBlocks();
+
+		LOGGER.info("Finished loading!");
 	}
 }
