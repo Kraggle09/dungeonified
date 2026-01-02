@@ -8,8 +8,8 @@
   "block.dungeonified.chiseled_runestone": "Chiseled Runestone",
   "block.dungeonified.polished_runestone": "Polished Runestone",
   "block.dungeonified.patterned_runestone": "Patterned Runestone",
-  "block.dungeonified.polished_siltstone": "Polished Siltstone",
-  "block.dungeonified.siltstone_bricks": "Siltstone Bricks",
-  "block.dungeonified.chiseled_siltstone": "Chiseled Siltstone",
+  "block.dungeonified.polished_dripstone": "Polished Dripstone",
+  "block.dungeonified.dripstone_bricks": "Dripstone Bricks",
+  "block.dungeonified.chiseled_dripstone": "Chiseled Dripstone",
   "itemgroup.dungeonified.dungeonified_group": "Dungeonified"
 }

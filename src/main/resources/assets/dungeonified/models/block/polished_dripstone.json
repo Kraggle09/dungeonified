@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "dungeonified:block/siltstone_bricks"
+    "all": "dungeonified:block/polished_dripstone"
   }
 }

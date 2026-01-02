@@ -32,12 +32,12 @@ public class ModBlocks {
     public static final Block PATTERNED_RUNESTONE = registerBlock("patterned_runestone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
 
-    // Base Siltstone
-    public static final Block POLISHED_SILTSTONE = registerBlock("polished_siltstone",
+    // Base Dripstone
+    public static final Block POLISHED_DRIPSTONE = registerBlock("polished_dripstone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
-    public static final Block SILTSTONE_BRICKS = registerBlock("siltstone_bricks",
+    public static final Block DRIPSTONE_BRICKS = registerBlock("dripstone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
-    public static final Block CHISELED_SILTSTONE = registerBlock("chiseled_siltstone",
+    public static final Block CHISELED_DRIPSTONE = registerBlock("chiseled_dripstone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {
