@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dungeonified:block/polished_runestone",
+    "side": "dungeonified:block/polished_runestone",
+    "top": "dungeonified:block/polished_runestone"
+  }
+}
