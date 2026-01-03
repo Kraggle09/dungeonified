@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dungeonified:block/squared_runestone_bricks",
+    "side": "dungeonified:block/squared_runestone_bricks",
+    "top": "dungeonified:block/squared_runestone_bricks"
+  }
+}

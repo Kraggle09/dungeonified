@@ -29,6 +29,8 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block SQUARED_RUNESTONE_BRICKS = registerBlock("squared_runestone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
+    public static final Block SQUARED_RUNESTONE_BRICK_SLAB = registerBlock("squared_runestone_brick_slab", createSlabBlock(SQUARED_RUNESTONE_BRICKS));
+    public static final Block SQUARED_RUNESTONE_BRICK_STAIRS = registerBlock("squared_runestone_brick_stairs", createStairsBlock(SQUARED_RUNESTONE_BRICKS));
     public static final Block CHISELED_RUNESTONE = registerBlock("chiseled_runestone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block POLISHED_RUNESTONE = registerBlock("polished_runestone",
