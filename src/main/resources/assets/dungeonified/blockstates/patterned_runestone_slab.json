@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeonified:block/patterned_runestone_slab"
+    },
+    "type=double": {
+      "model": "dungeonified:block/patterned_runestone"
+    },
+    "type=top": {
+      "model": "dungeonified:block/patterned_runestone_slab_top"
+    }
+  }
+}

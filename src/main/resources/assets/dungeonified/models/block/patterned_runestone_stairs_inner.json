@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "dungeonified:block/patterned_runestone",
+    "side": "dungeonified:block/patterned_runestone",
+    "top": "dungeonified:block/patterned_runestone"
+  }
+}

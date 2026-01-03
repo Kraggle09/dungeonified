@@ -39,6 +39,8 @@ public class ModBlocks {
     public static final Block POLISHED_RUNESTONE_STAIRS = registerBlock("polished_runestone_stairs", createStairsBlock(POLISHED_RUNESTONE));
     public static final Block PATTERNED_RUNESTONE = registerBlock("patterned_runestone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
+    public static final Block PATTERNED_RUNESTONE_SLAB = registerBlock("patterned_runestone_slab", createSlabBlock(PATTERNED_RUNESTONE));
+    public static final Block PATTERNED_RUNESTONE_STAIRS = registerBlock("patterned_runestone_stairs", createStairsBlock(PATTERNED_RUNESTONE));
 
     public static final Block POLISHED_DRIPSTONE = registerBlock("polished_dripstone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.5f).requiresTool()));
