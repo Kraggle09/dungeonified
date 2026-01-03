@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "dungeonified:block/dripstone_bricks",
+    "side": "dungeonified:block/dripstone_bricks",
+    "top": "dungeonified:block/dripstone_bricks"
+  }
+}

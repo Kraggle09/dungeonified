@@ -44,8 +44,12 @@ public class ModBlocks {
 
     public static final Block POLISHED_DRIPSTONE = registerBlock("polished_dripstone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.5f).requiresTool()));
+    public static final Block POLISHED_DRIPSTONE_SLAB = registerBlock("polished_dripstone_slab", createSlabBlock(POLISHED_DRIPSTONE));
+    public static final Block POLISHED_DRIPSTONE_STAIRS = registerBlock("polished_dripstone_stairs", createStairsBlock(POLISHED_DRIPSTONE));
     public static final Block DRIPSTONE_BRICKS = registerBlock("dripstone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.5f).requiresTool()));
+    public static final Block DRIPSTONE_BRICK_SLAB = registerBlock("dripstone_brick_slab", createSlabBlock(DRIPSTONE_BRICKS));
+    public static final Block DRIPSTONE_BRICK_STAIRS = registerBlock("dripstone_brick_stairs", createStairsBlock(DRIPSTONE_BRICKS));
     public static final Block CHISELED_DRIPSTONE = registerBlock("chiseled_dripstone",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.5f).requiresTool()));
 

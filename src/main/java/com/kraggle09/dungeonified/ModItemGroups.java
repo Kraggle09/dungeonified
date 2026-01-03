@@ -34,7 +34,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MORTISED_RUNESTONE_BRICKS);
                         entries.add(ModBlocks.RUNESTONE_PILLAR);
                         entries.add(ModBlocks.POLISHED_DRIPSTONE);
+                        entries.add(ModBlocks.POLISHED_DRIPSTONE_STAIRS);
+                        entries.add(ModBlocks.POLISHED_DRIPSTONE_SLAB);
                         entries.add(ModBlocks.DRIPSTONE_BRICKS);
+                        entries.add(ModBlocks.DRIPSTONE_BRICK_STAIRS);
+                        entries.add(ModBlocks.DRIPSTONE_BRICK_SLAB);
                         entries.add(ModBlocks.CHISELED_DRIPSTONE);
                         entries.add(ModBlocks.STONE_QUARTZ);
                         entries.add(ModBlocks.CHISELED_STONE_QUARTZ);

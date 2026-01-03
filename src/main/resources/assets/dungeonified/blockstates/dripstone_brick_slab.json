@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeonified:block/dripstone_brick_slab"
+    },
+    "type=double": {
+      "model": "dungeonified:block/dripstone_bricks"
+    },
+    "type=top": {
+      "model": "dungeonified:block/dripstone_brick_slab_top"
+    }
+  }
+}
