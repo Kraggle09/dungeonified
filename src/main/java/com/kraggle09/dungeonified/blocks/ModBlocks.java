@@ -55,8 +55,12 @@ public class ModBlocks {
 
     public static final Block STONE_QUARTZ = registerBlock("stone_quartz",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
+    public static final Block STONE_QUARTZ_SLAB = registerBlock("stone_quartz_slab", createSlabBlock(STONE_QUARTZ));
+    public static final Block STONE_QUARTZ_STAIRS = registerBlock("stone_quartz_stairs", createStairsBlock(STONE_QUARTZ));
     public static final Block STONE_QUARTZ_BRICKS = registerBlock("stone_quartz_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
+    public static final Block STONE_QUARTZ_BRICK_SLAB = registerBlock("stone_quartz_brick_slab", createSlabBlock(STONE_QUARTZ_BRICKS));
+    public static final Block STONE_QUARTZ_BRICK_STAIRS = registerBlock("stone_quartz_brick_stairs", createStairsBlock(STONE_QUARTZ_BRICKS));
     public static final Block CHISELED_STONE_QUARTZ_BRICKS = registerBlock("chiseled_stone_quartz_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
     public static final Block CHISELED_STONE_QUARTZ = registerBlock("chiseled_stone_quartz",

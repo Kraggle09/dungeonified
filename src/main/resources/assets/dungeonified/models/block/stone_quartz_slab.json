@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dungeonified:block/stone_quartz",
+    "side": "dungeonified:block/stone_quartz",
+    "top": "dungeonified:block/stone_quartz"
+  }
+}
