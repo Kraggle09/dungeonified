@@ -11,10 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dungeonified:mortised_runestone_bricks"
+          "name": "dungeonified:runestone_brick_stairs"
         }
       ],
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "dungeonified:blocks/runestone_brick_stairs"
 }

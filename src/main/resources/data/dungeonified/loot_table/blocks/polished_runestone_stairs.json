@@ -11,10 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dungeonified:chiseled_stone_quartz"
+          "name": "dungeonified:polished_runestone_stairs"
         }
       ],
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "dungeonified:blocks/polished_runestone_stairs"
 }

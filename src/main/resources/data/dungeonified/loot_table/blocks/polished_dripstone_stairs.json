@@ -11,10 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dungeonified:squared_runestone_bricks"
+          "name": "dungeonified:polished_dripstone_stairs"
         }
       ],
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "dungeonified:blocks/polished_dripstone_stairs"
 }

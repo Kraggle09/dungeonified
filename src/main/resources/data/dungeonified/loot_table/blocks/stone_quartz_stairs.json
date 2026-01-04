@@ -11,10 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dungeonified:burnt_pumpkin"
+          "name": "dungeonified:stone_quartz_stairs"
         }
       ],
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "dungeonified:blocks/stone_quartz_stairs"
 }
