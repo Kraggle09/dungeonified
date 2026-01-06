@@ -18,8 +18,8 @@ I won't be adding blocks to it, and I might remove items, not sure yet. I will p
 **What version of Minecraft is this for?**  
 Java Edition 1.21.1
 
-**When will this mod release?**  
-This mod is heavily WIP right now, as I'm still learning how to make mods, but I plan to release an alpha version in January.
+**Where can I download this mod?**  
+[Modrinth](https://modrinth.com/mod/dungeonified)
 
 <br>
 
