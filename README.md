@@ -20,3 +20,7 @@ Java Edition 1.21.11
 
 **When will this mod release?**  
 This mod is heavily WIP right now, as I'm still learning how to make mods, but I plan to release an alpha version in January.
+
+<br>
+
+<a href="https://github.com/kraggle09/dungeonified">Dungeonified</a> © 2026 by <a href="https://kraggle09.github.io">Kraggle09</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
