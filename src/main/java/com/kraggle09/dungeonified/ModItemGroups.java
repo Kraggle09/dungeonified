@@ -16,7 +16,9 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.dungeonified.dungeonified_group"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.BURNT_PUMPKIN);
-                        // Base Runestone
+                        entries.add(ModBlocks.RUNESTONE);
+                        entries.add(ModBlocks.RUNESTONE_STAIRS);
+                        entries.add(ModBlocks.RUNESTONE_SLAB);
                         entries.add(ModBlocks.POLISHED_RUNESTONE);
                         entries.add(ModBlocks.POLISHED_RUNESTONE_STAIRS);
                         entries.add(ModBlocks.POLISHED_RUNESTONE_SLAB);
