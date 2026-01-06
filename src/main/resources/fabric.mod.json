@@ -11,7 +11,7 @@
 		"homepage": "https://kraggle09.github.io/",
 		"sources": "https://github.com/kraggle09/dungeonified"
 	},
-	"license": "CC0-1.0",
+	"license": "CC-BY-SA-4.0",
 	"icon": "assets/dungeonified/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.kraggle09.dungeonified.DungeonifiedDataGenerator"
+		],
+		"client": [
+			"com.kraggle09.dungeonified.DungeonifiedClient"
 		]
 	},
 	"mixins": [
