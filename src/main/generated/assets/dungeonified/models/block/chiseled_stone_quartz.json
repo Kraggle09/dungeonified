@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dungeonified:block/chiseled_stone_quartz_top",
+    "side": "dungeonified:block/chiseled_stone_quartz_side"
+  }
+}

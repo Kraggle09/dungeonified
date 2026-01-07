@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "dungeonified:block/runestone_pillar_top",
+    "side": "dungeonified:block/runestone_pillar"
+  }
+}

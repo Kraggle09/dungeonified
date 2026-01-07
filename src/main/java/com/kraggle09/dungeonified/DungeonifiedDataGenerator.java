@@ -11,6 +11,6 @@ public class DungeonifiedDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModLootTableProvider::new);
-		//.addProvider(ModModelProvider::new);
+		pack.addProvider(ModModelProvider::new);
 	}
 }

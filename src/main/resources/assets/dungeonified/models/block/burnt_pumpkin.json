@@ -1,8 +1,0 @@
-{
-    "parent": "dungeonified:block/cube_column_2_sides",
-    "textures": {
-        "end": "dungeonified:block/burnt_pumpkin_top",
-        "side1": "dungeonified:block/burnt_pumpkin_side1",
-        "side2": "dungeonified:block/burnt_pumpkin_side2"
-    }
-}

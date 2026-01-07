@@ -1,10 +1,7 @@
 package com.kraggle09.dungeonified.blocks;
 
 import com.kraggle09.dungeonified.Dungeonified;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.StairsBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -29,7 +26,7 @@ public class ModBlocks {
     public static final Block MORTISED_RUNESTONE_BRICKS = registerBlock("mortised_runestone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block RUNESTONE_PILLAR = registerBlock("runestone_pillar",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
+            new PillarBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block SQUARED_RUNESTONE_BRICKS = registerBlock("squared_runestone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block SQUARED_RUNESTONE_BRICK_SLAB = registerBlock("squared_runestone_brick_slab", createSlabBlock(SQUARED_RUNESTONE_BRICKS));
@@ -69,7 +66,7 @@ public class ModBlocks {
     public static final Block CHISELED_STONE_QUARTZ = registerBlock("chiseled_stone_quartz",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
     public static final Block STONE_QUARTZ_PILLAR = registerBlock("stone_quartz_pillar",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
+            new PillarBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(1.2f).requiresTool()));
 
     private static Block createStairsBlock(Block base) {
         return new StairsBlock(base.getDefaultState(), AbstractBlock.Settings.copy(base));
