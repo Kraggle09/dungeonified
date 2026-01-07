@@ -3,9 +3,11 @@ package com.kraggle09.dungeonified.datagen;
 import com.kraggle09.dungeonified.blocks.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.TexturedModel;
+import net.minecraft.block.Block;
+import net.minecraft.data.client.*;
+import net.minecraft.util.Identifier;
+
+import static net.minecraft.data.client.BlockStateModelGenerator.createSingletonBlockState;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -74,7 +76,21 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerAxisRotated(ModBlocks.STONE_QUARTZ_PILLAR, TexturedModel.END_FOR_TOP_CUBE_COLUMN, TexturedModel.END_FOR_TOP_CUBE_COLUMN_HORIZONTAL);
 
         // Burnt Pumpkin
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BURNT_PUMPKIN);
+        registerSideFrontTop(blockStateModelGenerator, ModBlocks.BURNT_PUMPKIN);
+    }
+
+    private void registerSideFrontTop(BlockStateModelGenerator generator, Block block) {
+        TextureMap textureMap = new TextureMap()
+                .put(TextureKey.PARTICLE, TextureMap.getSubId(block, "_side1"))
+                .put(TextureKey.DOWN, TextureMap.getSubId(block, "_top"))
+                .put(TextureKey.UP, TextureMap.getSubId(block, "_top"))
+                .put(TextureKey.NORTH, TextureMap.getSubId(block, "_side1"))
+                .put(TextureKey.EAST, TextureMap.getSubId(block, "_side2"))
+                .put(TextureKey.SOUTH, TextureMap.getSubId(block, "_side1"))
+                .put(TextureKey.WEST, TextureMap.getSubId(block, "_side2"));
+
+        Identifier modelId = Models.CUBE.upload(block, textureMap, generator.modelCollector);
+        generator.blockStateCollector.accept(createSingletonBlockState(block, modelId));
     }
 
     @Override

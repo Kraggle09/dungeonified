@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "dungeonified:block/burnt_pumpkin"
+    "down": "dungeonified:block/burnt_pumpkin_top",
+    "east": "dungeonified:block/burnt_pumpkin_side2",
+    "north": "dungeonified:block/burnt_pumpkin_side1",
+    "particle": "dungeonified:block/burnt_pumpkin_side1",
+    "south": "dungeonified:block/burnt_pumpkin_side1",
+    "up": "dungeonified:block/burnt_pumpkin_top",
+    "west": "dungeonified:block/burnt_pumpkin_side2"
   }
 }
