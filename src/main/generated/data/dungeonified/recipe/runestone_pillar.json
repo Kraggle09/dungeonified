@@ -2,20 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "p": {
+    "#": {
       "item": "dungeonified:polished_runestone"
-    },
-    "s": {
-      "item": "dungeonified:polished_runestone_slab"
     }
   },
   "pattern": [
-    "sps",
-    "ppp",
-    "sps"
+    "#",
+    "#"
   ],
   "result": {
-    "count": 7,
-    "id": "dungeonified:patterned_runestone"
+    "count": 1,
+    "id": "dungeonified:runestone_pillar"
   }
 }

@@ -3,14 +3,16 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "dungeonified:"
+      "item": "dungeonified:runestone_bricks"
     }
   },
   "pattern": [
+    "###",
+    "# #",
     "###"
   ],
   "result": {
-    "count": 6,
-    "id": "dungeonified:_slab"
+    "count": 1,
+    "id": "dungeonified:mortised_runestone_bricks"
   }
 }

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block.dungeonified.patterned_runestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dungeonified:patterned_runestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dungeonified:patterned_runestone_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_block.dungeonified.patterned_runestone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dungeonified:patterned_runestone_slab"
+    ]
+  }
+}

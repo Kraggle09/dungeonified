@@ -4,14 +4,18 @@
   "key": {
     "#": {
       "item": "dungeonified:polished_runestone"
+    },
+    "_": {
+      "item": "dungeonified:polished_runestone_slab"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "_#_",
+    "###",
+    "_#_"
   ],
   "result": {
-    "count": 4,
-    "id": "dungeonified:runestone_bricks"
+    "count": 1,
+    "id": "dungeonified:patterned_runestone"
   }
 }

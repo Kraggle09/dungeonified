@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block.dungeonified.stone_quartz_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dungeonified:stone_quartz_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dungeonified:chiseled_stone_quartz"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_block.dungeonified.stone_quartz_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dungeonified:chiseled_stone_quartz"
+    ]
+  }
+}

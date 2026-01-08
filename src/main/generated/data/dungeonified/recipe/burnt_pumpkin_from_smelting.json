@@ -1,11 +1,12 @@
 {
   "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
   "ingredient": {
     "item": "minecraft:pumpkin"
   },
   "result": {
     "id": "dungeonified:burnt_pumpkin"
-  },
-  "experience": 0.1,
-  "cookingtime": 200
+  }
 }
