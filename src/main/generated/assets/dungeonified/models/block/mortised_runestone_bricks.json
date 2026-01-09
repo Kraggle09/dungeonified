@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "dungeonified:block/mortised_runestone_bricks"
+    "down": "dungeonified:block/polished_runestone",
+    "east": "dungeonified:block/mortised_runestone_bricks",
+    "north": "dungeonified:block/mortised_runestone_bricks",
+    "particle": "dungeonified:block/mortised_runestone_bricks",
+    "south": "dungeonified:block/mortised_runestone_bricks",
+    "up": "dungeonified:block/polished_runestone",
+    "west": "dungeonified:block/mortised_runestone_bricks"
   }
 }

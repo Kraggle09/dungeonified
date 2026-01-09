@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-08T12:19:37.617554	Dungeonified/Block Loot Tables
+// 1.21.1	2026-01-09T09:47:43.0209765	Dungeonified/Block Loot Tables
 4e3c5cae02bb75946e751ac1375a58a70c67307c data\dungeonified\loot_table\blocks\squared_runestone_brick_stairs.json
 314f9e98327b7b44b232a16050bd62d0a39b8d07 data\dungeonified\loot_table\blocks\patterned_runestone_stairs.json
 518329c7a7d42cf5cfb3c9b19ddd329d0e2e124c data\dungeonified\loot_table\blocks\chiseled_runestone.json
@@ -31,6 +31,6 @@ dbf1a39cf2cfa1b90edfc89ae7ab8dad2813f66c data\dungeonified\loot_table\blocks\pol
 3618fd9b1f1ce0c335673b65f20212b76dbb3632 data\dungeonified\loot_table\blocks\runestone_pillar.json
 dbea4af9c5d869713592af8f00faafe82afa9e85 data\dungeonified\loot_table\blocks\polished_dripstone_slab.json
 90673d36d548e5522de42683a34788bda1f63a74 data\dungeonified\loot_table\blocks\chiseled_runestone_bricks.json
-2ea78c7d49842d84bc47482d2be66559f8cfab70 data\dungeonified\loot_table\blocks\dripstone_bricks.json
 9f8831a045ae81e80c6446836105a6d0e36187d5 data\dungeonified\loot_table\blocks\polished_runestone.json
+2ea78c7d49842d84bc47482d2be66559f8cfab70 data\dungeonified\loot_table\blocks\dripstone_bricks.json
 c4f8ab47a8a386aacef34f2f5b09a8e4a1955b6c data\dungeonified\loot_table\blocks\squared_runestone_brick_slab.json

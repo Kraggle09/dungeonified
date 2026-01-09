@@ -44,7 +44,7 @@ public class ModModelProvider extends FabricModelProvider {
         // Other Runestone Blocks
         blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_RUNESTONE, TexturedModel.CUBE_COLUMN);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_RUNESTONE_BRICKS);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MORTISED_RUNESTONE_BRICKS);
+        registerColumnCustomTopBottom(blockStateModelGenerator, ModBlocks.MORTISED_RUNESTONE_BRICKS, ModBlocks.POLISHED_RUNESTONE);
         blockStateModelGenerator.registerAxisRotated(ModBlocks.RUNESTONE_PILLAR, TexturedModel.END_FOR_TOP_CUBE_COLUMN, TexturedModel.END_FOR_TOP_CUBE_COLUMN_HORIZONTAL);
 
         // Polished Dripstone
@@ -88,6 +88,19 @@ public class ModModelProvider extends FabricModelProvider {
                 .put(TextureKey.EAST, TextureMap.getSubId(block, "_side2"))
                 .put(TextureKey.SOUTH, TextureMap.getSubId(block, "_side1"))
                 .put(TextureKey.WEST, TextureMap.getSubId(block, "_side2"));
+
+        Identifier modelId = Models.CUBE.upload(block, textureMap, generator.modelCollector);
+        generator.blockStateCollector.accept(createSingletonBlockState(block, modelId));
+    }
+    private void registerColumnCustomTopBottom(BlockStateModelGenerator generator, Block block, Block alt_block) {
+        TextureMap textureMap = new TextureMap()
+                .put(TextureKey.PARTICLE, TextureMap.getId(block))
+                .put(TextureKey.DOWN, TextureMap.getId(alt_block))
+                .put(TextureKey.UP, TextureMap.getId(alt_block))
+                .put(TextureKey.NORTH, TextureMap.getId(block))
+                .put(TextureKey.EAST, TextureMap.getId(block))
+                .put(TextureKey.SOUTH, TextureMap.getId(block))
+                .put(TextureKey.WEST, TextureMap.getId(block));
 
         Identifier modelId = Models.CUBE.upload(block, textureMap, generator.modelCollector);
         generator.blockStateCollector.accept(createSingletonBlockState(block, modelId));
