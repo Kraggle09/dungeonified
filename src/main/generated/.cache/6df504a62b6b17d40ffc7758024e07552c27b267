@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-09T09:47:43.0146588	Dungeonified/Recipes
+// 1.21.1	2026-01-09T10:06:15.7982158	Dungeonified/Recipes
 360747d3f535e0a6380aaa9f76e45adf3a4adc5a data\dungeonified\advancement\recipes\building_blocks\runestone_brick_slab.json
 78fbfa3c8dc0d45a24eb69b61929745b243d0cb3 data\dungeonified\recipe\dripstone_bricks.json
 2545906b56fdca15b46718ea26d8a1e5459d290b data\dungeonified\recipe\chiseled_stone_quartz.json
@@ -16,8 +16,8 @@ b1fe1213f342837d15853ecc51d255c99c6578de data\dungeonified\recipe\chiseled_drips
 ef97e55ce2c5619b0ef4bb995aa58e2e77dc1c8e data\dungeonified\advancement\recipes\building_blocks\runestone_slab.json
 72bfdc6954c3681022d2419eaca452262b845c6f data\dungeonified\recipe\burnt_pumpkin_from_smelting.json
 68a995a2d563a5382150303c3e604a8e0d9b742e data\dungeonified\advancement\recipes\building_blocks\dripstone_bricks.json
-9f3d32a39804d164cb17bf0a06b8a0ea1fab66cd data\dungeonified\recipe\patterned_runestone.json
 374e43b3b027e1e64d3237a195b21ae6ac3d3eba data\dungeonified\recipe\chiseled_stone_quartz_bricks.json
+9f3d32a39804d164cb17bf0a06b8a0ea1fab66cd data\dungeonified\recipe\patterned_runestone.json
 5b53064b6e4c03b487eda7c255d37d2e724bcad9 data\dungeonified\recipe\polished_dripstone.json
 731f8ccac1ad950fbb4a8de670e7b066f72a7a04 data\dungeonified\recipe\stone_quartz_brick_slab.json
 4b496be8ed0f73d332bb94d88a0de42742f66ab9 data\dungeonified\advancement\recipes\building_blocks\stone_quartz_bricks.json

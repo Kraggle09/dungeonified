@@ -43,7 +43,7 @@ public class ModModelProvider extends FabricModelProvider {
         patternedRunestonePool.stairs(ModBlocks.PATTERNED_RUNESTONE_STAIRS);
         // Other Runestone Blocks
         blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_RUNESTONE, TexturedModel.CUBE_COLUMN);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_RUNESTONE_BRICKS);
+        registerColumnCustomTopBottom(blockStateModelGenerator, ModBlocks.CHISELED_RUNESTONE_BRICKS, ModBlocks.POLISHED_RUNESTONE);
         registerColumnCustomTopBottom(blockStateModelGenerator, ModBlocks.MORTISED_RUNESTONE_BRICKS, ModBlocks.POLISHED_RUNESTONE);
         blockStateModelGenerator.registerAxisRotated(ModBlocks.RUNESTONE_PILLAR, TexturedModel.END_FOR_TOP_CUBE_COLUMN, TexturedModel.END_FOR_TOP_CUBE_COLUMN_HORIZONTAL);
 
