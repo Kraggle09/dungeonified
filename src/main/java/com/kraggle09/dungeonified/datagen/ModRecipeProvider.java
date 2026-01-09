@@ -45,10 +45,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         create4x4Recipe(recipeExporter, ModBlocks.POLISHED_DRIPSTONE, ModBlocks.DRIPSTONE_BRICKS);
         // Stone Quartz
         create4x4Recipe(recipeExporter, ModBlocks.STONE_QUARTZ, ModBlocks.STONE_QUARTZ_BRICKS);
-        // STAIRS/SLABS
+        // STAIRS/SLABS/WALLS
         // Runestone
         createStairsRecipe(recipeExporter, ModBlocks.RUNESTONE, ModBlocks.RUNESTONE_STAIRS);
         createSlabRecipe(recipeExporter, ModBlocks.RUNESTONE, ModBlocks.RUNESTONE_SLAB);
+        createWallRecipe(recipeExporter, ModBlocks.RUNESTONE, ModBlocks.RUNESTONE_WALL);
         createStairsRecipe(recipeExporter, ModBlocks.RUNESTONE_BRICKS, ModBlocks.RUNESTONE_BRICK_STAIRS);
         createSlabRecipe(recipeExporter, ModBlocks.RUNESTONE_BRICKS, ModBlocks.RUNESTONE_BRICK_SLAB);
         createStairsRecipe(recipeExporter, ModBlocks.SQUARED_RUNESTONE_BRICKS, ModBlocks.SQUARED_RUNESTONE_BRICK_STAIRS);
@@ -89,6 +90,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     }
     public void createSlabRecipe(RecipeExporter recipeExporter, Block input_block, Block output_block) {
         FabricRecipeProvider.createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, output_block, Ingredient.ofItems(input_block)).criterion("has_"+input_block.getTranslationKey(), InventoryChangedCriterion.Conditions.items(input_block)).offerTo(recipeExporter);
+    }
+    public void createWallRecipe(RecipeExporter recipeExporter, Block input_block, Block output_block) {
+        FabricRecipeProvider.getWallRecipe(RecipeCategory.BUILDING_BLOCKS, output_block, Ingredient.ofItems(input_block)).criterion("has_"+input_block.getTranslationKey(), InventoryChangedCriterion.Conditions.items(input_block)).offerTo(recipeExporter);
     }
     public void createChiseledRecipe(RecipeExporter recipeExporter, Block input_block, Block output_block) {
         FabricRecipeProvider.createChiseledBlockRecipe(RecipeCategory.BUILDING_BLOCKS, output_block, Ingredient.ofItems(input_block)).criterion("has_"+input_block.getTranslationKey(), InventoryChangedCriterion.Conditions.items(input_block)).offerTo(recipeExporter);

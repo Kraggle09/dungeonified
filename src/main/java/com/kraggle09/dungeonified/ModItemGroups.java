@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUNESTONE);
                         entries.add(ModBlocks.RUNESTONE_STAIRS);
                         entries.add(ModBlocks.RUNESTONE_SLAB);
+                        entries.add(ModBlocks.RUNESTONE_WALL);
                         entries.add(ModBlocks.POLISHED_RUNESTONE);
                         entries.add(ModBlocks.POLISHED_RUNESTONE_STAIRS);
                         entries.add(ModBlocks.POLISHED_RUNESTONE_SLAB);

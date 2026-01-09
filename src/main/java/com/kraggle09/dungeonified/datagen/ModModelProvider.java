@@ -21,6 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RUNESTONE);
         runestonePool.slab(ModBlocks.RUNESTONE_SLAB);
         runestonePool.stairs(ModBlocks.RUNESTONE_STAIRS);
+        runestonePool.wall(ModBlocks.RUNESTONE_WALL);
         // Runestone Bricks
         BlockStateModelGenerator.BlockTexturePool runestoneBrickPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RUNESTONE_BRICKS);

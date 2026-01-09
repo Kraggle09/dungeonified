@@ -18,6 +18,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUNESTONE);
         addDrop(ModBlocks.RUNESTONE_STAIRS);
         addDrop(ModBlocks.RUNESTONE_SLAB, this::slabDrops);
+        addDrop(ModBlocks.RUNESTONE_WALL);
         // Runestone Bricks
         addDrop(ModBlocks.RUNESTONE_BRICKS);
         addDrop(ModBlocks.RUNESTONE_BRICK_STAIRS);

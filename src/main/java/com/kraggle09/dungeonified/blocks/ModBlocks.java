@@ -17,6 +17,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f)));
     public static final Block RUNESTONE_STAIRS = registerBlock("runestone_stairs", createStairsBlock(RUNESTONE));
     public static final Block RUNESTONE_SLAB = registerBlock("runestone_slab", createSlabBlock(RUNESTONE));
+    public static final Block RUNESTONE_WALL = registerBlock("runestone_wall", createWallBlock(RUNESTONE));
     public static final Block RUNESTONE_BRICKS = registerBlock("runestone_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(2f).requiresTool()));
     public static final Block RUNESTONE_BRICK_SLAB = registerBlock("runestone_brick_slab", createSlabBlock(RUNESTONE_BRICKS));
@@ -74,6 +75,10 @@ public class ModBlocks {
 
     private static Block createSlabBlock(Block base) {
         return new SlabBlock(AbstractBlock.Settings.copy(base));
+    }
+
+    private static Block createWallBlock(Block base) {
+        return new WallBlock(AbstractBlock.Settings.copy(base).solid());
     }
 
     private static Block registerBlock(String name, Block block) {
