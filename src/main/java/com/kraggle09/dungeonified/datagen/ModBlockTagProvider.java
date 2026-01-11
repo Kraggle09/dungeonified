@@ -15,6 +15,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.RUNESTONE_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.RUNESTONE_WALL)
+                .add(ModBlocks.RUNESTONE_BRICK_WALL)
+                .add(ModBlocks.SQUARED_RUNESTONE_BRICK_WALL)
+                .add(ModBlocks.POLISHED_RUNESTONE_WALL)
+                .add(ModBlocks.PATTERNED_RUNESTONE_WALL)
+                .add(ModBlocks.POLISHED_DRIPSTONE_WALL)
+                .add(ModBlocks.DRIPSTONE_BRICK_WALL)
+                .add(ModBlocks.STONE_QUARTZ_WALL)
+                .add(ModBlocks.STONE_QUARTZ_BRICK_WALL);
     }
 }

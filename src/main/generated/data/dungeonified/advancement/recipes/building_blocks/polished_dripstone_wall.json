@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block.dungeonified.polished_dripstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dungeonified:polished_dripstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dungeonified:polished_dripstone_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_block.dungeonified.polished_dripstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dungeonified:polished_dripstone_wall"
+    ]
+  }
+}

@@ -52,22 +52,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createWallRecipe(recipeExporter, ModBlocks.RUNESTONE, ModBlocks.RUNESTONE_WALL);
         createStairsRecipe(recipeExporter, ModBlocks.RUNESTONE_BRICKS, ModBlocks.RUNESTONE_BRICK_STAIRS);
         createSlabRecipe(recipeExporter, ModBlocks.RUNESTONE_BRICKS, ModBlocks.RUNESTONE_BRICK_SLAB);
+        createWallRecipe(recipeExporter, ModBlocks.RUNESTONE_BRICKS, ModBlocks.RUNESTONE_BRICK_WALL);
         createStairsRecipe(recipeExporter, ModBlocks.SQUARED_RUNESTONE_BRICKS, ModBlocks.SQUARED_RUNESTONE_BRICK_STAIRS);
         createSlabRecipe(recipeExporter, ModBlocks.SQUARED_RUNESTONE_BRICKS, ModBlocks.SQUARED_RUNESTONE_BRICK_SLAB);
+        createWallRecipe(recipeExporter, ModBlocks.SQUARED_RUNESTONE_BRICKS, ModBlocks.SQUARED_RUNESTONE_BRICK_WALL);
         createStairsRecipe(recipeExporter, ModBlocks.POLISHED_RUNESTONE, ModBlocks.POLISHED_RUNESTONE_STAIRS);
         createSlabRecipe(recipeExporter, ModBlocks.POLISHED_RUNESTONE, ModBlocks.POLISHED_RUNESTONE_SLAB);
+        createWallRecipe(recipeExporter, ModBlocks.POLISHED_RUNESTONE, ModBlocks.POLISHED_RUNESTONE_WALL);
         createStairsRecipe(recipeExporter, ModBlocks.PATTERNED_RUNESTONE, ModBlocks.PATTERNED_RUNESTONE_STAIRS);
         createSlabRecipe(recipeExporter, ModBlocks.PATTERNED_RUNESTONE, ModBlocks.PATTERNED_RUNESTONE_SLAB);
+        createWallRecipe(recipeExporter, ModBlocks.PATTERNED_RUNESTONE, ModBlocks.PATTERNED_RUNESTONE_WALL);
         // Dripstone
         createStairsRecipe(recipeExporter, ModBlocks.POLISHED_DRIPSTONE, ModBlocks.POLISHED_DRIPSTONE_STAIRS);
         createSlabRecipe(recipeExporter, ModBlocks.POLISHED_DRIPSTONE, ModBlocks.POLISHED_DRIPSTONE_SLAB);
+        createWallRecipe(recipeExporter, ModBlocks.POLISHED_DRIPSTONE, ModBlocks.POLISHED_DRIPSTONE_WALL);
         createStairsRecipe(recipeExporter, ModBlocks.DRIPSTONE_BRICKS, ModBlocks.DRIPSTONE_BRICK_STAIRS);
         createSlabRecipe(recipeExporter, ModBlocks.DRIPSTONE_BRICKS, ModBlocks.DRIPSTONE_BRICK_SLAB);
+        createWallRecipe(recipeExporter, ModBlocks.DRIPSTONE_BRICKS, ModBlocks.DRIPSTONE_BRICK_WALL);
         // Stone Quartz
         createStairsRecipe(recipeExporter, ModBlocks.STONE_QUARTZ, ModBlocks.STONE_QUARTZ_STAIRS);
         createSlabRecipe(recipeExporter, ModBlocks.STONE_QUARTZ, ModBlocks.STONE_QUARTZ_SLAB);
+        createWallRecipe(recipeExporter, ModBlocks.STONE_QUARTZ, ModBlocks.STONE_QUARTZ_WALL);
         createStairsRecipe(recipeExporter, ModBlocks.STONE_QUARTZ_BRICKS, ModBlocks.STONE_QUARTZ_BRICK_STAIRS);
         createSlabRecipe(recipeExporter, ModBlocks.STONE_QUARTZ_BRICKS, ModBlocks.STONE_QUARTZ_BRICK_SLAB);
+        createWallRecipe(recipeExporter, ModBlocks.STONE_QUARTZ_BRICKS, ModBlocks.STONE_QUARTZ_BRICK_WALL);
 
         // CHISELED BLOCKS
         createChiseledRecipe(recipeExporter, ModBlocks.RUNESTONE_BRICK_SLAB, ModBlocks.CHISELED_RUNESTONE_BRICKS);

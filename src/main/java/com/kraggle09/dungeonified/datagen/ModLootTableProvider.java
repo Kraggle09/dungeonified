@@ -23,18 +23,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUNESTONE_BRICKS);
         addDrop(ModBlocks.RUNESTONE_BRICK_STAIRS);
         addDrop(ModBlocks.RUNESTONE_BRICK_SLAB, this::slabDrops);
+        addDrop(ModBlocks.RUNESTONE_BRICK_WALL);
         // Squared Runestone Bricks
         addDrop(ModBlocks.SQUARED_RUNESTONE_BRICKS);
         addDrop(ModBlocks.SQUARED_RUNESTONE_BRICK_STAIRS);
         addDrop(ModBlocks.SQUARED_RUNESTONE_BRICK_SLAB, this::slabDrops);
+        addDrop(ModBlocks.SQUARED_RUNESTONE_BRICK_WALL);
         // Polished Runestone
         addDrop(ModBlocks.POLISHED_RUNESTONE);
         addDrop(ModBlocks.POLISHED_RUNESTONE_STAIRS);
         addDrop(ModBlocks.POLISHED_RUNESTONE_SLAB, this::slabDrops);
+        addDrop(ModBlocks.POLISHED_RUNESTONE_WALL);
         // Patterned Runestone
         addDrop(ModBlocks.PATTERNED_RUNESTONE);
         addDrop(ModBlocks.PATTERNED_RUNESTONE_STAIRS);
         addDrop(ModBlocks.PATTERNED_RUNESTONE_SLAB, this::slabDrops);
+        addDrop(ModBlocks.PATTERNED_RUNESTONE_WALL);
         // Other Runestone Blocks
         addDrop(ModBlocks.CHISELED_RUNESTONE);
         addDrop(ModBlocks.CHISELED_RUNESTONE_BRICKS);
@@ -45,10 +49,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POLISHED_DRIPSTONE);
         addDrop(ModBlocks.POLISHED_DRIPSTONE_STAIRS);
         addDrop(ModBlocks.POLISHED_DRIPSTONE_SLAB, this::slabDrops);
+        addDrop(ModBlocks.POLISHED_DRIPSTONE_WALL);
         // Dripstone Bricks
         addDrop(ModBlocks.DRIPSTONE_BRICKS);
         addDrop(ModBlocks.DRIPSTONE_BRICK_STAIRS);
         addDrop(ModBlocks.DRIPSTONE_BRICK_SLAB, this::slabDrops);
+        addDrop(ModBlocks.DRIPSTONE_BRICK_WALL);
         // Chiseled Dripstone Bricks
         addDrop(ModBlocks.CHISELED_RUNESTONE_BRICKS);
 
@@ -56,10 +62,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STONE_QUARTZ);
         addDrop(ModBlocks.STONE_QUARTZ_STAIRS);
         addDrop(ModBlocks.STONE_QUARTZ_SLAB, this::slabDrops);
+        addDrop(ModBlocks.STONE_QUARTZ_WALL);
         // Stone Quartz Bricks
         addDrop(ModBlocks.STONE_QUARTZ_BRICKS);
         addDrop(ModBlocks.STONE_QUARTZ_BRICK_STAIRS);
         addDrop(ModBlocks.STONE_QUARTZ_BRICK_SLAB, this::slabDrops);
+        addDrop(ModBlocks.STONE_QUARTZ_BRICK_WALL);
         // Other Stone Quartz Blocks
         addDrop(ModBlocks.CHISELED_STONE_QUARTZ);
         addDrop(ModBlocks.CHISELED_STONE_QUARTZ_BRICKS);

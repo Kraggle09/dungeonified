@@ -1,5 +1,13 @@
 {
   "values": [
-    "dungeonified:runestone_wall"
+    "dungeonified:runestone_wall",
+    "dungeonified:runestone_brick_wall",
+    "dungeonified:squared_runestone_brick_wall",
+    "dungeonified:polished_runestone_wall",
+    "dungeonified:patterned_runestone_wall",
+    "dungeonified:polished_dripstone_wall",
+    "dungeonified:dripstone_brick_wall",
+    "dungeonified:stone_quartz_wall",
+    "dungeonified:stone_quartz_brick_wall"
   ]
 }
