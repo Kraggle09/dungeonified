@@ -55,8 +55,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DRIPSTONE_BRICK_STAIRS);
         addDrop(ModBlocks.DRIPSTONE_BRICK_SLAB, this::slabDrops);
         addDrop(ModBlocks.DRIPSTONE_BRICK_WALL);
-        // Chiseled Dripstone Bricks
-        addDrop(ModBlocks.CHISELED_RUNESTONE_BRICKS);
+        // Chiseled Dripstone
+        addDrop(ModBlocks.CHISELED_DRIPSTONE);
 
         // Stone Quartz
         addDrop(ModBlocks.STONE_QUARTZ);

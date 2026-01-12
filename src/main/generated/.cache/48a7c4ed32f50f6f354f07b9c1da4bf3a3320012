@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-12T09:30:46.6921481	Dungeonified/Block Loot Tables
+// 1.21.1	2026-01-12T09:52:37.2308645	Dungeonified/Block Loot Tables
 4e3c5cae02bb75946e751ac1375a58a70c67307c data\dungeonified\loot_table\blocks\squared_runestone_brick_stairs.json
 314f9e98327b7b44b232a16050bd62d0a39b8d07 data\dungeonified\loot_table\blocks\patterned_runestone_stairs.json
 518329c7a7d42cf5cfb3c9b19ddd329d0e2e124c data\dungeonified\loot_table\blocks\chiseled_runestone.json
@@ -32,6 +32,7 @@ b8f4a132ab86850d737b262aae2874f2e58201e5 data\dungeonified\loot_table\blocks\run
 65f998c9e54b440de0681603db3a3cc3ee8eec3c data\dungeonified\loot_table\blocks\polished_dripstone.json
 7966ba282253cb2df58016334696c0aa0ef1f896 data\dungeonified\loot_table\blocks\runestone_brick_wall.json
 0960748194182cd50739e1e07ddcecd19b43720c data\dungeonified\loot_table\blocks\chiseled_stone_quartz_bricks.json
+4730b01295f42268327bece1a9c0018430aacf0c data\dungeonified\loot_table\blocks\chiseled_dripstone.json
 b084d3acb9a2a2fce4838169cfdfb9f764a5a609 data\dungeonified\loot_table\blocks\burnt_pumpkin.json
 dbf1a39cf2cfa1b90edfc89ae7ab8dad2813f66c data\dungeonified\loot_table\blocks\polished_dripstone_stairs.json
 8c0eb2710bc2f5f6995f130f036f686ab245d1c6 data\dungeonified\loot_table\blocks\stone_quartz_stairs.json
