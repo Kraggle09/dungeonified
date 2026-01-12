@@ -77,6 +77,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STONE_QUARTZ_PILLAR);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .addTag(STONE_TYPES);
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.BURNT_PUMPKIN);
     }
 
     public static final TagKey<Block> STONE_TYPES = TagKey.of(RegistryKeys.BLOCK, Identifier.of(Dungeonified.MOD_ID, "stone_types"));
