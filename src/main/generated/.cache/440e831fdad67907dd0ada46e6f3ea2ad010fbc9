@@ -1,2 +1,4 @@
-// 1.21.1	2026-01-11T11:53:37.9713623	Dungeonified/Tags for minecraft:block
+// 1.21.1	2026-01-12T09:27:16.4769078	Dungeonified/Tags for minecraft:block
+089afe4a0776960591e0e8fd49d49f5c4c01f789 data\minecraft\tags\block\mineable\pickaxe.json
 3ae5ad40a6dcfd20a0e521746a904da056cf894e data\minecraft\tags\block\walls.json
+a9f1e599a90507a885735e25ea8425dad6130a8d data\dungeonified\tags\block\stone_types.json
